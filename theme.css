@@ -1,0 +1,41 @@
+:root{
+  /* background-color */
+  /* --bg-color:rgb(29, 11, 11);
+  --primary-bg-color:rgb(4, 10, 5);
+  --secondary-bg-color:rgb(197, 13, 13);
+  --white-color:#fff;
+  --active-color:#fff3;
+   */
+  --bg-color: #0f172a;          /* Deep navy */
+  --primary-bg-color: #020617;  /* Near-black blue */
+  --secondary-bg-color: #2563eb;/* Professional blue */
+  --white-color: #e5e7eb;       /* Soft white */
+  --active-color: #2563eb80; 
+  
+  --font-sm:1rem;
+  --font-md:1.5rem;
+  --font-lg:2rem;
+  --font-xl:2.5rem;
+  --font-2xl:3rem;
+
+  --padding-sm:0.25rem;
+  --padding-md:0.5rem;
+  --padding-lg:1rem;
+  --padding-xl:1.5rem;
+  --padding-2xl:2rem;
+
+  --margin-sm:1rem;
+  --margin-md:1.5rem;
+  --margin-lg:2rem;
+  --margin-xl:2.5rem;
+  --margin-2xl:3rem;
+
+  --buffer-sm:1rem;
+  --buffer-md:1.5rem;
+  --buffer-lg:2rem;
+  --buffer-xl:2.5rem;
+  --buffer-2xl:3rem;
+
+
+
+}
