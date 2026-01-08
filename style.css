@@ -243,7 +243,7 @@ section{
     display:block;
     width:85%;
     mix-blend-mode: lighten;
-
+    border-radius: 50%;
 }
 .img-box::before,
 .img-box::after{
