@@ -239,7 +239,7 @@ section{
 }
 .img-item img{
     position:absolute;
-    top:3rem;
+    top:2rem;
     object-fit: cover;
     display:block;
     width:85%;
@@ -738,8 +738,13 @@ section{
     font-size:3rem;
     margin: 1rem 0 0.5rem;
   }
-}
-@media  screen and (max-width: 425px){
+} 
+ @media  screen and (max-width: 768px){
+    .resume-container,
+    .portfolio-container,
+    .contact-container{
+        grid-template-columns: 1fr;
+    }
     .home-detail h2 {
     font-size: 2rem;
     margin-top: 0rem;
@@ -752,11 +757,6 @@ section{
     }
      section{
     padding: 5rem 9% 2rem;
-    }
-    .resume-container,
-    .portfolio-container,
-    .contact-container{
-        grid-template-columns: 1fr;
     }
    .portfolio-carausal .img-slider{
     gap:3rem;
@@ -771,26 +771,11 @@ section{
    .portfolio .heading {
     font-size: 2.5rem;
    }
-   .portfolio-box .navigation {
-    margin-top: 1rem;
-   }
    
 .portfolio-box .numb {
     font-size: 4rem;
 }
 
-}
-@media  screen and (max-width: 375px){
-    .img-item img {
-    position: absolute;
-    top: 2rem;
-    }
-    html{
-        font-size:70%;
-    }
-    .sci {
-    margin:0px;
-    }
     .btn-sci{
         display: flex;
         flex-direction: column-reverse;
