@@ -780,7 +780,7 @@ section{
 }
 
 }
-@media  screen and (max-width: 320px){
+@media  screen and (max-width: 375px){
     .img-item img {
     position: absolute;
     top: 2rem;
