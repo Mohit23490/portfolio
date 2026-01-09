@@ -1,6 +1,19 @@
 const navlinks=document.querySelectorAll("header nav a");
 const logolinks = document.querySelector(".logo")
 const section =document.querySelectorAll("section")
+const logo =document.querySelector("#logo i");
+const navbar =document.querySelector("header nav")
+logo.addEventListener(("click"),() =>{
+if (logo.classList.contains("bx-menu")) {
+  logo.classList.replace("bx-menu", "bx-x");
+  navbar.classList.add("active")
+} else {
+  logo.classList.replace("bx-x", "bx-menu");
+  navbar.classList.remove("active")
+}
+
+
+})
 const addlinks =()=>{
     const barsbox = document.querySelector(".bars-box")
     const header=document.querySelector("header")
@@ -18,6 +31,8 @@ const addlinks =()=>{
     section.forEach(s => {
          s.classList.remove("active")
     });
+    logo.classList.replace("bx-x", "bx-menu");
+      navbar.classList.remove("active")
 }
 navlinks.forEach((element,idx) => {
     element.addEventListener("click",()=>{
