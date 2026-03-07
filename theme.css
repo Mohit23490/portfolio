@@ -1,17 +1,11 @@
 :root{
-  /* background-color */
-  /* --bg-color:rgb(29, 11, 11);
+  /* background-color  */
+   --bg-color:rgb(13, 27, 13);
   --primary-bg-color:rgb(4, 10, 5);
-  --secondary-bg-color:rgb(197, 13, 13);
+  --secondary-bg-color:rgb(29, 196, 14);
   --white-color:#fff;
   --active-color:#fff3;
-   */
-  --bg-color: #0f172a;          /* Deep navy */
-  --primary-bg-color: #020617;  /* Near-black blue */
-  --secondary-bg-color: #2563eb;/* Professional blue */
-  --white-color: #e5e7eb;       /* Soft white */
-  --active-color: #2563eb80; 
-  
+ 
   --font-sm:1rem;
   --font-md:1.5rem;
   --font-lg:2rem;
